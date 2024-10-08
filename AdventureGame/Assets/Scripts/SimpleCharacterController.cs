@@ -40,7 +40,7 @@ public class SimpleCharacterController : MonoBehaviour
 
 
         //Jumping
-        if (Input.GetButtonDown("Jump")) //&& controller.isGrounded)
+        if (Input.GetButtonDown("Jump")) //&& controller.isGrounded;
         {
             velocity.y = Mathf.Sqrt(f: jumpForce * -2f * gravity);
         }
